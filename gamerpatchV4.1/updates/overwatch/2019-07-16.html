@@ -1,0 +1,171 @@
+
+
+<h2>PATCH HIGHLIGHTS</h2>
+
+<p><strong>Summer Games 2019</strong></p>
+
+<p>The Summer Games are back! Hone your competitive edge with Season 3 of Copa L&#250;cioball, and beat the heat with legendary skins like Surf &#8216;n&#8217; Splash Torbj&#246;rn, Wave Hanzo, and Kendoka Genji. Unlock these and more, along with seasonal items from previous years!</p>
+
+<p></p>
+
+<p><strong>New Feature: Subtitles</strong></p>
+
+<p>Choose between 3 additive levels of subtitling: Critical Gameplay, Critical Gameplay + Conversations, and Everything.&#160; This new feature was created to improve the gameplay experience for players that are deaf or hard of hearing, and also for players who enjoy reading closed captions.</p>
+
+<p></p>
+
+<h2>WORKSHOP UPDATES</h2>
+
+<p><strong>General</strong></p>
+
+<ul>
+	<li>Added the ability for scripters to measure the server performance of the current game instance.
+	<ul style="list-style-type:circle;">
+		<li>Three new values make this possible:
+		<ul>
+			<li>Server Load - Provides a percentage representing the CPU load of the current game instance.</li>
+			<li>Server Load Average - Provides a percentage representing the average CPU load of the current game instance over the last two seconds.</li>
+			<li>Server Load Peak - Provides a percentage representing the highest CPU load of the current game instance over the last two seconds.</li>
+		</ul>
+		</li>
+		<li>As these numbers approach or exceed 100, it becomes increasingly likely that the game instance will be shut down because it is consuming too many resources.</li>
+		<li>A new preset example displays these values as HUD text in the upper-left corner of the screen. The rule in the preset can be copied into other scripts to help identify performance problem areas.</li>
+	</ul>
+	</li>
+	<li>When a game instance shuts down due to excessive Workshop script load, a new error message is displayed in the chat window (instead of the &#8220;unexpected error&#8221; message).</li>
+	<li>Additional strings added.</li>
+</ul>
+
+<p></p>
+
+<h2>BUG FIXES</h2>
+
+<p><strong>General</strong></p>
+
+<ul>
+	<li>Fixed a bug that could cause players who have selected a hero during the Hero Select Phase to have their hero deselected when the Setup Phase begins.</li>
+	<li>In spectator mode, health and armor types are now properly displayed in the order they are consumed when taking damage.</li>
+	<li>Color blind - Fixed a bug that caused incorrect default colors to be applied to the objective UI depending on when you attack or defend while having only 1 color blind color set.</li>
+	<li><console only=""> Orisa's Supercharger, Baptiste's Immortality Field, and Ashe's own Dynamite are now valid targets for aim assist.</console></li>
+</ul>
+
+<p><strong>Workshop</strong></p>
+
+<ul>
+	<li>Fixed a bug that caused "Set Invisible" to function incorrectly for Reinhardt when using secondary fire while viewing in third person.</li>
+	<li>Custom Game: Fixed a bug that could cause AI bots to become stuck on their way to the capture point on the Oasis: University map.</li>
+	<li>Fixed the &#8220;Disable Built-In Game Mode Respawning&#8221; and &#8220;Set Respawn Max Time&#8221; actions.</li>
+	<li>Custom Game: Fixed a bug where Widowmaker's Venom Mine damage wasn't affected by custom game damage scalars.</li>
+	<li>Fixed a bug that caused controllers to lose focus when deleting a rule, action, or condition that is not displayed on screen.</li>
+	<li>Fixed a bug that caused an "Invalid Options" error message after importing some older workshop share codes.</li>
+	<li>Disabling certain actions no longer cause an infinite loop.</li>
+</ul>
+
+<p><strong>Replays</strong></p>
+
+<ul>
+	<li>Fixed a bug that caused the FOV button to not function when watching a replay.</li>
+	<li>Fixed a bug that caused player outlines to disappear when skipping or scrubbing while following a player in first person or third person.</li>
+	<li>Fixed a bug that caused hero effects to remain on screen when skipping ahead while paused.</li>
+</ul>
+
+<p><strong>Maps</strong></p>
+
+<p>Hanamura</p>
+
+<ul>
+	<li>Fixed a bug that allowed certain heroes to become stuck in the roof outside of Point B.</li>
+	<li>Fixed a bug that allowed some heroes to float between building rooftops near the Point A choke.</li>
+</ul>
+
+<p>Havana (PvP)</p>
+
+<ul>
+	<li>Fixed a bug that allowed a defender to enter the attacker's spawn room (left exit, 2nd attack spawn room).</li>
+</ul>
+
+<p>Numbani</p>
+
+<ul>
+	<li>Updated lighting for highlight intros.</li>
+</ul>
+
+<p><strong>Heroes</strong></p>
+
+<p>Baptiste</p>
+
+<ul>
+	<li>Fixed a bug where Baptiste's Amplification Matrix was not boosting healing effects.</li>
+</ul>
+
+<p>Doomfist</p>
+
+<ul>
+	<li>Fixed a bug where Seismic Slam could fail to register.</li>
+</ul>
+
+<p>D.Va</p>
+
+<ul>
+	<li>Fixed a bug where D.Va's Defense Matrix would fail to absorb projectiles around a corner in certain circumstances.</li>
+</ul>
+
+<p>Baptiste</p>
+
+<ul>
+	<li>Fixed a visual inconsistency with Baptiste's head with his Spec Ops skin equipped.</li>
+</ul>
+
+<p>Hanzo</p>
+
+<ul>
+	<li>Fixed a bug that could cause a dead Hanzo's bow to appear floating above the ground, when that Hanzo had his Kabuki skin equipped.</li>
+</ul>
+
+<p>Roadhog</p>
+
+<ul>
+	<li>Fixed a bug where Roadhog's chain would sometimes not render in first person.</li>
+</ul>
+
+<p>Moira</p>
+
+<ul>
+	<li>Fixed a bug where Moira's Coalescence would sometimes not render in first person.</li>
+	<li>Fixed a bug where Moira was still briefly visible after using Fade.</li>
+</ul>
+
+<p>Sombra</p>
+
+<ul>
+	<li>Fixed a bug where Sombra's Translocator would be on cooldown after respawning.</li>
+	<li>Fixed a bug where an enemy could sometimes use an ability if Sombra hacked them while they were already hacked via EMP.</li>
+</ul>
+
+<p>Torbj&#246;rn</p>
+
+<ul>
+	<li>Fixed a bug that made it possible to use Torbj&#246;rn's Molten Core and hammer at the same time.</li>
+</ul>
+
+<p>Winston</p>
+
+<ul>
+	<li>Fixed a bug that caused Winston's nameplate and health bar to be covered by his body when he used Primal Rage.</li>
+</ul>
+
+<p>Wrecking Ball</p>
+
+<ul>
+	<li>Fixed a bug that allowed Wrecking Ball's mines to be destroyed by an enemy Wrecking Ball rolling through them without taking damage.</li>
+</ul>
+
+<p>Zenyatta</p>
+
+<ul>
+	<li>Fixed a bug that caused Zenyatta's in-game and highlights portrait to not display his Zen-Nakji skin.</li>
+</ul>
+
+<p></p>
+
+<p></p>
